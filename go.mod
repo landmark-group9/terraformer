@@ -20,14 +20,14 @@ require (
 	github.com/IBM/platform-services-go-sdk v0.19.1
 	github.com/IBM/vpc-go-sdk v0.4.1
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
-	github.com/OctopusDeploy/go-octopusdeploy v1.6.0
+	github.com/OctopusDeploy/go-octopusdeploy v1.7.55
 	github.com/PaloAltoNetworks/pango v0.6.0
 	github.com/SAP/go-hdb v0.105.2 // indirect
 	github.com/SermoDigital/jose v0.9.1 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1247
 	github.com/aliyun/aliyun-tablestore-go-sdk v4.1.2+incompatible
 	github.com/apache/openwhisk-client-go v0.0.0-20210106144548-17d556327cd3
-	github.com/aws/aws-sdk-go-v2 v1.16.1
+	github.com/aws/aws-sdk-go-v2 v1.16.2
 	github.com/aws/aws-sdk-go-v2/config v1.1.4
 	github.com/aws/aws-sdk-go-v2/credentials v1.1.4
 	github.com/aws/aws-sdk-go-v2/service/accessanalyzer v1.2.0
@@ -48,7 +48,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/codebuild v1.2.1
 	github.com/aws/aws-sdk-go-v2/service/codecommit v1.1.3
 	github.com/aws/aws-sdk-go-v2/service/codedeploy v1.2.1
-	github.com/aws/aws-sdk-go-v2/service/codepipeline v1.2.1
+	github.com/aws/aws-sdk-go-v2/service/codepipeline v1.13.3
 	github.com/aws/aws-sdk-go-v2/service/cognitoidentity v1.2.1
 	github.com/aws/aws-sdk-go-v2/service/cognitoidentityprovider v1.2.1
 	github.com/aws/aws-sdk-go-v2/service/configservice v1.3.0
@@ -207,8 +207,8 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef // indirect
 	github.com/aws/aws-sdk-go v1.37.0 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.0.5 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.8 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.2 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.9 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.0.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.2.1 // indirect
@@ -223,7 +223,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/crewjam/saml v0.4.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/dghubble/sling v1.1.0 // indirect
+	github.com/dghubble/sling v1.4.0 // indirect
 	github.com/dimchansky/utfbom v1.1.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/fatih/color v1.7.0 // indirect
@@ -232,8 +232,8 @@ require (
 	github.com/go-logr/logr v0.4.0 // indirect
 	github.com/go-openapi/errors v0.19.8 // indirect
 	github.com/go-openapi/strfmt v0.20.2 // indirect
-	github.com/go-playground/locales v0.13.0 // indirect
-	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-playground/locales v0.14.0 // indirect
+	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-resty/resty/v2 v2.1.1-0.20191201195748-d7b97669fe48 // indirect
 	github.com/go-routeros/routeros v0.0.0-20210123142807-2a44d57c6730 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
@@ -246,7 +246,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/jsonapi v1.0.0 // indirect
-	github.com/google/uuid v1.2.0 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
 	github.com/googleapis/gnostic v0.4.1 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
@@ -271,7 +271,7 @@ require (
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
 	github.com/klauspost/compress v1.11.2 // indirect
 	github.com/launchdarkly/api-client-go v5.3.0+incompatible
-	github.com/leodido/go-urn v1.2.0 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattermost/xml-roundtrip-validator v0.0.0-20201213122252-bcd7e1b9601e // indirect
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-ieproxy v0.0.0-20190702010315-6dee0af9227d // indirect
@@ -322,8 +322,6 @@ require (
 	google.golang.org/grpc v1.45.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/auth0.v5 v5.21.1
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
-	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect
@@ -349,7 +347,9 @@ require (
 require (
 	cloud.google.com/go/compute v1.3.0 // indirect
 	github.com/clbanning/mxj v1.8.4 // indirect
+	github.com/go-playground/validator/v10 v10.9.0 // indirect
 	github.com/golang-jwt/jwt/v4 v4.3.0 // indirect
+	github.com/jinzhu/copier v0.3.2 // indirect
 	github.com/peterhellberg/link v1.1.0 // indirect
 )
 
